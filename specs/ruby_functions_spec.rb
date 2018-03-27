@@ -95,6 +95,8 @@ class Functions_Practice < MiniTest::Test
     assert_equal(13.89 ,fahrenheit_to_celsius_result)
     fahrenheit_to_celsius_result = fahrenheit_to_celsius(10)
     assert_equal(-12.22 ,fahrenheit_to_celsius_result)
+    fahrenheit_to_celsius_result = fahrenheit_to_celsius(40)
+    assert_equal(4.44 ,fahrenheit_to_celsius_result)
   end
 
 
